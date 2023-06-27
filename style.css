@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: math;
+}
+
+body {
+  background: rgb(245, 238, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  background: rgb(141, 123, 123);
+  box-shadow: #2e7da2;
+  display: grid;
+  margin: 50px;
+  min-height: 1000px;
+  grid-template-columns: 1fr 3fr;
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 0 35px 55p rgb(0, 0, 0, 0.1);
+}
+.container .left-side {
+  position: relative;
+  background-color: #003147;
+  padding: 40px;
+}
+
+.profiletext {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: antiquewhite;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profiletext .imgbx {
+  position: relative;
+}
+
+.profiletext h2 {
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 800;
+  line-height: 1.4rem;
+}
+.profiletext h2 span {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.contractinfo {
+  padding-top: 40px;
+}
+
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  width: 106%;
+}
+
+.contractinfo ul {
+  position: relative;
+  width: 121%;
+}
+
+.contractinfo ul li {
+  list-style: none;
+  position: relative;
+  margin: 10px 0;
+  font-size: 11px;
+  cursor: pointer;
+}
+.contractinfo ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 1rem;
+  color: #3aa9f4;
+}
+.contractinfo ul li span {
+  color: #fff;
+  font-weight: 400;
+}
+/* education */
+
+.contractinfo .education {
+  margin-bottom: 14px;
+}
+
+.contractinfo.education h5 {
+  color: hsl(198, 75%, 42%);
+  font-weight: 500;
+}
+.contractinfo.education h4:nth-child(2) {
+  color: #fff;
+  font-weight: 500;
+}
+.contractinfo.education h4 {
+  color: #fff;
+  font-weight: 400;
+}
+
+/* language */
+
+.contractinfo.language .percent {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: rgb(20, 14, 14);
+  display: block;
+  margin-top: 4px;
+}
+
+.contractinfo.language .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #3aa9f4;
+}
+
+/* right */
+
+.container .right-side {
+  position: relative;
+  padding: 27px;
+  color: #003147;
+  background: rgb(255, 254, 254);
+}
+
+.about {
+  margin-bottom: 40px;
+}
+
+.about h2 {
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #0c047e;
+  margin-bottom: 0;
+}
+.about:last-child {
+  margin-bottom: 0;
+}
+
+.title2 {
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  max-width: max-content;
+  margin-bottom: 10px;
+}
+
+p {
+    color: #003147;
+    width: 103%;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.about .box {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.about .box .year-compony {
+  min-width: 150px;
+}
+
+.about .box .year-compony h5 {
+  text-transform: uppercase;
+  color: #003147;
+  font-weight: 600;
+}
+
+.about .box .text h4 {
+  color: #2e7da2;
+  font-size: 16px;
+  text-decoration: none;
+
+  text-transform: uppercase;
+}
+
+/* skill */
+.skills {
+  margin-bottom: 45px;
+}
+.skills .box {
+  position: relative;
+  width: 80%;
+  text-transform: uppercase;
+  display: grid;
+  height: 1vh;
+  grid-template-columns: 150px 1fr;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+
+.skills .box .percent {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: #f00;
+}
+
+.skills .box .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #003147;
+}
+
+/* projrctcs  */
+
+.projects .box h5 {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+ h3 {
+    font-size: 14px;
+  }
+  
+
+/* social link */
+.social {
+  position: relative;
+  border-bottom: none;
+}
+.social h5 {
+  font-size: 23px;
+  margin-bottom: 11px;
+}
+.links a {
+  text-decoration: none;
+  margin-top: 41px;
+}
+
+.links a i {
+  color: white;
+  margin-inline: 10px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.acheivment {
+  list-style-type: none;
+}
+
+.acheivment .box {
+  font-weight: 800;
+  font-size: 15px;
+
+  text-decoration: none;
+}
+
+.acheivment .box ul li a {
+  color: #443e9e;
+}
+
+.acheivment .box li a {
+  color: #003147;
+  text-decoration: none;
+}
+
+.acheivment .box a:hover {
+  color: #2e7da2;
+}
